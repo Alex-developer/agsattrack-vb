@@ -1,0 +1,119 @@
+VERSION 5.00
+Begin VB.PropertyPage PropPage1 
+   Caption         =   "PropPage1"
+   ClientHeight    =   2472
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   5928
+   PaletteMode     =   0  'Halftone
+   ScaleHeight     =   2472
+   ScaleWidth      =   5928
+   Begin VB.CommandButton CmdLoadFile 
+      BackColor       =   &H00000000&
+      Caption         =   "Click to Select a Gif File"
+      BeginProperty Font 
+         Name            =   "MS Sans Serif"
+         Size            =   18
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   612
+      Left            =   120
+      TabIndex        =   2
+      Top             =   1560
+      Width           =   5700
+   End
+   Begin VB.TextBox txtstrGifFileName 
+      Height          =   330
+      Left            =   90
+      TabIndex        =   1
+      Top             =   1116
+      Width           =   5676
+   End
+   Begin VB.Label Label1 
+      Alignment       =   2  'Center
+      BackColor       =   &H00000000&
+      Caption         =   "Load an Animated Gif File"
+      BeginProperty Font 
+         Name            =   "MS Sans Serif"
+         Size            =   18
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      ForeColor       =   &H00FFFFFF&
+      Height          =   612
+      Left            =   120
+      TabIndex        =   3
+      Top             =   120
+      Width           =   5652
+   End
+   Begin VB.Label lblstrGifFileName 
+      Caption         =   "strGifFileName:"
+      Height          =   240
+      Left            =   96
+      TabIndex        =   0
+      Top             =   876
+      Visible         =   0   'False
+      Width           =   2700
+   End
+End
+Attribute VB_Name = "PropPage1"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = True
+    Option Explicit
+    
+    Private Sub CmdLoadFile_Click()
+    
+    Dim clsDialog As Object
+    Dim StrTemp As String
+    
+    
+    Set clsDialog = New clsCommonDialog
+    
+    ' Fill in our structure
+    clsDialog.Filter = "Animated Gif (*.GIF)" & Chr$(0) & "*.GIF" & Chr$(0)
+    clsDialog.hdc = 0
+    clsDialog.MaxFileSize = 256
+    clsDialog.Max = 256
+    clsDialog.FileTitle = vbNullString
+    clsDialog.DialogTitle = "Please Select an Animated Gif File"
+    clsDialog.InitDir = vbNullString
+    clsDialog.DefaultExt = vbNullString
+    
+    ' Display the File Dialog
+    clsDialog.ShowOpen
+    
+    ' See if user clicked Cancel or even selected
+    ' the very same file already selected
+    StrTemp = clsDialog.FileName
+    If StrTemp <> txtstrGifFileName.Text Then
+    txtstrGifFileName.Text = clsDialog.FileName
+    Else
+    ' Add error handling
+    End If
+    
+    Set clsDialog = Nothing
+    
+    End Sub
+    
+    Private Sub txtstrGifFileName_Change()
+       Changed = True
+    End Sub
+    
+    Private Sub PropertyPage_ApplyChanges()
+       SelectedControls(0).strGifFileName = txtstrGifFileName.Text
+    End Sub
+    
+    Private Sub PropertyPage_SelectionChanged()
+       txtstrGifFileName.Text = SelectedControls(0).strGifFileName
+    End Sub
+    
+    

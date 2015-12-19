@@ -1,0 +1,18 @@
+; This contents file was created with HelpScribble 5.5.2
+; Registered to: Alex Greenland
+
+:BASE AGSatTrack.hlp
+:TITLE AGSatTrack
+1 Overview
+2 Overview=Scribble20
+2 Acknowledgments=Scribble12
+1 Getting Started
+2 Setting up the program=Scribble40
+2 Getting Started=Scribble30
+2 Satellite Selection=Scribble35
+2 Main Options=Scribble50
+1 Orbital Parameters
+2 Keplarian Elements=Scribble60
+2 Element Warning=Scribble15
+2 Internet Update=Scribble37
+2 2 Line Element Sets=Scribble39

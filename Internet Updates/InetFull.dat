@@ -1,0 +1,30 @@
+Eductaional,education.txt,http://www.celestrak.com,/NORAD/elements
+Other Comms,other-comm.txt,http://www.celestrak.com,/NORAD/elements
+Other,other.txt,http://www.celestrak.com,/NORAD/elements
+Raduga,raduga.txt,http://www.celestrak.com,/NORAD/elements
+Geodetic,geodetic.txt,http://www.celestrak.com,/NORAD/elements
+GEOS,goes.txt,http://www.celestrak.com,/NORAD/elements
+NOAA,noaa.txt,http://www.celestrak.com,/NORAD/elements
+Gorizont,gorizont.txt,http://www.celestrak.com,/NORAD/elements
+X-Comm,x-comm.txt,http://www.celestrak.com,/NORAD/elements
+Stations,stations.txt,http://www.celestrak.com,/NORAD/elements
+Glo-Ops,glo-ops.txt,http://www.celestrak.com,/NORAD/elements
+Military,military.txt,http://www.celestrak.com,/NORAD/elements
+Radar,radar.txt,http://www.celestrak.com,/NORAD/elements
+SarSat,sarsat.txt,http://www.celestrak.com,/NORAD/elements
+NNSS,nnss.txt,http://www.celestrak.com,/NORAD/elements
+TDRSS,tdrss.txt,http://www.celestrak.com,/NORAD/elements
+Engineering,engineering.txt,http://www.celestrak.com,/NORAD/elements
+Intelsat,intelsat.txt,http://www.celestrak.com,/NORAD/elements
+Molniya,molniya.txt,http://www.celestrak.com,/NORAD/elements
+GPS,gps-ops.txt,http://www.celestrak.com,/NORAD/elements
+Musson,musson.txt,http://www.celestrak.com,/NORAD/elements
+OrbComm,orbcomm.txt,http://www.celestrak.com,/NORAD/elements
+Science,science.txt,http://www.celestrak.com,/NORAD/elements
+Global Star,globalstar.txt,http://www.celestrak.com,/NORAD/elements
+iridium,iridium.txt,http://www.celestrak.com,/NORAD/elements
+Geostationary,geo.txt,http://www.celestrak.com,/NORAD/elements
+Amateur,amateur.txt,http://www.celestrak.com,/NORAD/elements
+New,tle-new.txt,http://www.celestrak.com,/NORAD/elements
+Weather,weather.txt,http://www.celestrak.com,/NORAD/elements
+Visual,visual.txt,http://www.celestrak.com,/NORAD/elements

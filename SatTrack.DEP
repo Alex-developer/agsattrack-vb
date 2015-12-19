@@ -1,0 +1,24 @@
+[Version]
+Version=1.0.0.46
+
+[SatTrack.ocx <0009>]
+Dest=$(WinSysPath)
+Date=22-Jan-01
+Time=21:42
+Version=1.0.0.46
+CABFilename=SatTrack.CAB
+CABINFFile=SatTrack.INF
+Uses1=MSVBVM60.DLL
+Uses2=OLEAUT32.DLL
+Uses3=OLEPRO32.DLL
+Uses4=ASYCFILT.DLL
+Uses5=STDOLE2.TLB
+Uses6=COMCAT.DLL
+Uses7=AgGlobe.dll
+Uses8=COMDLG32.OCX
+Uses9=MSCOMCT2.OCX
+Uses10=MSCOMCTL.OCX
+Uses11=MSCOMM32.OCX
+Uses12=cbotknob.ocx
+Uses13=XVOICE.DLL
+Uses14=MSSTKPRP.DLL

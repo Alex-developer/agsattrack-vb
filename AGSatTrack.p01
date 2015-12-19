@@ -1,0 +1,335 @@
+{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset0 Arial;}}
+{\colortbl\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue127;\red0\green127\blue127;\red0\green127\blue0;\red127\green0\blue127;\red127\green0\blue0;\red127\green127\blue0;\red127\green127\blue127;\red192\green192\blue192;}
+{\info{\creatim\yr2001\mo9\dy26\hr7\min30\sec34}{\revtim\yr2001\mo9\dy26\hr7\min33\sec1}{\version1}{\vern393248}}\paperw12240\paperh15840\margl360\margr0\margt360\margb360\deftab849
+
+#{\footnote Hlp_frmSplash_}
+${\footnote frmSplash}
+K{\footnote frmSplash}
++{\footnote AGSatTrack0005}
+\pard{\b\f0\fs20\cf0 frmSplash}{
+\par}\pard{
+\par}
+\page
+#{\footnote Hlp_Available_satellites}
+${\footnote Available satellites from}
+K{\footnote Available satellites from}
++{\footnote AGSatTrack0005}
+\pard{\b\f0\fs20\cf0 Available satellites from}{
+\par}\pard{
+\par}
+\page
+#{\footnote Hlp_frmDocument_}
+${\footnote frmDocument}
+K{\footnote frmDocument}
++{\footnote AGSatTrack0005}
+\pard{\b\f0\fs20\cf0 frmDocument}{
+\par}\pard{
+\par}
+\page
+#{\footnote Hlp_Program_Options}
+${\footnote Program Options}
+K{\footnote Program Options}
++{\footnote AGSatTrack0005}
+\pard{\b\f0\fs20\cf0 Program Options}{
+\par}\pard{\b\f0\fs24\cf0             Always tack Azmiuth}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Track Azimuth even when satellite is below the horizon}{
+\par}\pard{\b\f0\fs24\cf0             None}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 download from www.ea4tx.com}{
+\par}\pard{\b\f0\fs24\cf0             ARSWIN}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 download from www.ea4tx.com}{
+\par}\pard{\b\f0\fs24\cf0             txtFTPImagesDir}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enter the directory on the FTP Server to store the images}{
+\par}\pard{\b\f0\fs24\cf0             txtFTPHTMLDir}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enter the Name of the directory on the FTP Server for the HTML Template}{
+\par}\pard{\b\f0\fs24\cf0             txtFTPTemplate}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enter the name of the HTML Template}{
+\par}\pard{\b\f0\fs24\cf0             txtFTPPassword}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enter the FTP site password}{
+\par}\pard{\b\f0\fs24\cf0             txtFTPUsername}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enter the FTP site username}{
+\par}\pard{\b\f0\fs24\cf0             txtFTPServer}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enter the URL of the FTP server}{
+\par}\pard{\b\f0\fs24\cf0             Use PASV Mode}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Use PASV mode for FTP.}{
+\par}\pard{\b\f0\fs24\cf0             30}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enter the timeout period for the FTP/HTTP server.}{
+\par}\pard{\b\f0\fs24\cf0             Use HTTP Proxy}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enable this option if you use a proxy server}{
+\par}\pard{\b\f0\fs24\cf0             txtProxyIP}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enter the address of the proxy server}{
+\par}\pard{\b\f0\fs24\cf0             txtProxyPort}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enter the proxy server port number}{
+\par}\pard{\b\f0\fs24\cf0             FTP Through HTTP Proxy}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enable FTP through HTTP proxy}{
+\par}\pard{\b\f0\fs24\cf0             cmbSecondObs}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Select the second observer from the list}{
+\par}\pard{\b\f0\fs24\cf0             txtSecondLat}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enter the second observer Latitude in the format HH.MM.SS (N/S)}{
+\par}\pard{\b\f0\fs24\cf0             txtSecondLong}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enter the second observer Longitude in the format HHH.MM.SS (E/W)}{
+\par}\pard{\b\f0\fs24\cf0             txtSecondName}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enter the name of the second observer toplot on the map}{
+\par}\pard{\b\f0\fs24\cf0             txtSecondHeight}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enter the second observer height in meters}{
+\par}\pard{\b\f0\fs24\cf0             Enable Mutual Calculations}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enables mutual observer calculations}{
+\par}\pard{\b\f0\fs24\cf0             Text1}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enter your Latitude in the format HH.MM.SS}{
+\par}\pard{\b\f0\fs24\cf0             Text1}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enter your longitude in the format HHH.MM.SS}{
+\par}\pard{\b\f0\fs24\cf0             Text2}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enter the observer name to plot on the map}{
+\par}\pard{\b\f0\fs24\cf0             Text1}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enter the default observer height in meters}{
+\par}\pard{\b\f0\fs24\cf0             Show day and night}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enables night shading in orthographic views}{
+\par}\pard{\b\f0\fs24\cf0             txtGTPS}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enter the size of the ground track dots.}{
+\par}\pard{\b\f0\fs24\cf0             Display Satellites/Sun/Moon as pictures}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 If enabled objects are displayed as pictures rather then dots}{
+\par}\pard{\b\f0\fs24\cf0             txtUpdate}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enter the number of seconds between screen updates}{
+\par}\pard{\b\f0\fs24\cf0             Automatically adjust for daylight saving}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 If checked the daylight saving will be automatically enabled.}{
+\par}\pard{\b\f0\fs24\cf0             Daylight Saving}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 If checked daylight saving will be enabled.}{
+\par}\pard{\b\f0\fs24\cf0             cmbTimezones}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Select the observers timezone}{
+\par}\pard{\b\f0\fs24\cf0             Text1}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 How frequently the speech is audible}{
+\par}\pard{\b\f0\fs24\cf0             Announce time until AOS}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 If enabled the time until current AOS will be spoken.}{
+\par}\pard{\b\f0\fs24\cf0             Minimise to System Tray}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 If enabled the program will be minimised to the system tray.}{
+\par}\pard{\b\f0\fs24\cf0             txtKepsAge}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Elements older than this age will trigger a warning to update the elements}{
+\par}\pard{\b\f0\fs24\cf0             Save/Load Last View}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 If enabled the current view will be saved}{
+\par}\pard{\b\f0\fs24\cf0             Indicate Visible Satellites}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 If enabled visible satellites will be displayed in the predictions window}{
+\par}\pard{
+\par}
+\page
+#{\footnote Hlp_Window_Options}
+${\footnote Window Options}
+K{\footnote Window Options}
++{\footnote AGSatTrack0005}
+\pard{\b\f0\fs20\cf0 Window Options}{
+\par}\pard{\b\f0\fs24\cf0             Enable Mutual Calculations}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Select to enable mutual observer calculations}{
+\par}\pard{\b\f0\fs24\cf0             txtSecondHeight}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enter the second observer height in meters}{
+\par}\pard{\b\f0\fs24\cf0             txtSecondName}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enter the second observer name to plot on the map}{
+\par}\pard{\b\f0\fs24\cf0             txtSecondLong}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enter the second observer Longitude in the format HHH.MM.SS (E/W)}{
+\par}\pard{\b\f0\fs24\cf0             txtSecondLat}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enter the second observer latitude in the format HH.MM.SS (N/S)}{
+\par}\pard{\b\f0\fs24\cf0             cmbSecondObs}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Select the mutual observer from the list}{
+\par}\pard{\b\f0\fs24\cf0             Text1}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enter the main station latitude in the format HH.MM.SS (N/S)}{
+\par}\pard{\b\f0\fs24\cf0             Text1}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enter the main station Longitude in the format HHH.MM.SS (E/W)}{
+\par}\pard{\b\f0\fs24\cf0             Text2}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enter the main station name to plot on the map}{
+\par}\pard{\b\f0\fs24\cf0             Text1}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enter the main station height in meters}{
+\par}\pard{
+\par}
+\page
+#{\footnote Hlp_About_MyApp}
+${\footnote About MyApp}
+K{\footnote About MyApp}
++{\footnote AGSatTrack0005}
+\pard{\b\f0\fs20\cf0 About MyApp}{
+\par}\pard{
+\par}
+\page
+#{\footnote Hlp_Register_AGSatTrack}
+${\footnote Register AGSatTrack}
+K{\footnote Register AGSatTrack}
++{\footnote AGSatTrack0005}
+\pard{\b\f0\fs20\cf0 Register AGSatTrack}{
+\par}\pard{
+\par}
+\page
+#{\footnote Hlp_Registration_Information}
+${\footnote Registration Information}
+K{\footnote Registration Information}
++{\footnote AGSatTrack0005}
+\pard{\b\f0\fs20\cf0 Registration Information}{
+\par}\pard{
+\par}
+\page
+#{\footnote Hlp_Predictions_}
+${\footnote Predictions}
+K{\footnote Predictions}
++{\footnote AGSatTrack0005}
+\pard{\b\f0\fs20\cf0 Predictions}{
+\par}\pard{\b\f0\fs24\cf0       1}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Number of days to run prediction for}{
+\par}\pard{\b\f0\fs24\cf0       dtpDate}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Start date for prediction}{
+\par}\pard{\b\f0\fs24\cf0       Only Show AOS/LOS}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Only display AOS/LOS details}{
+\par}\pard{\b\f0\fs24\cf0    lstSats}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Available satellites}{
+\par}\pard{
+\par}
+\page
+#{\footnote Hlp_Form1_}
+${\footnote Form1}
+K{\footnote Form1}
++{\footnote AGSatTrack0005}
+\pard{\b\f0\fs20\cf0 Form1}{
+\par}\pard{
+\par}
+\page
+#{\footnote Hlp_Form1_1}
+${\footnote Form1}
+K{\footnote Form1}
++{\footnote AGSatTrack0005}
+\pard{\b\f0\fs20\cf0 Form1}{
+\par}\pard{
+\par}
+\page
+#{\footnote Hlp_Form1_2}
+${\footnote Form1}
+K{\footnote Form1}
++{\footnote AGSatTrack0005}
+\pard{\b\f0\fs20\cf0 Form1}{
+\par}\pard{\f0\fs24\cf0    }{\strike\f0\fs24\cf0 Gantt Menu}{\f0\fs24\cf0 {\v Hlp_Gantt_Menu }}{
+\par}\pard{
+\par}
+\page
+#{\footnote Hlp_Gantt_Menu}
+${\footnote Gantt Menu}
+K{\footnote Gantt Menu}
++{\footnote AGSatTrack0005}
+\pard{\b\f0\fs20\cf0 Gantt Menu}{
+\par}\pard{\b\f0\fs24\cf0    Gantt Menu}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0       Details Here}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0       Display Pass Details}{\b\f0\fs24\cf0\tab}{
+\par}\pard{
+\par}
+\page
+#{\footnote Hlp_Form1_3}
+${\footnote Form1}
+K{\footnote Form1}
++{\footnote AGSatTrack0005}
+\pard{\b\f0\fs20\cf0 Form1}{
+\par}\pard{
+\par}
+\page
+#{\footnote Hlp_Edit_Internet}
+${\footnote Edit Internet Update Groups}
+K{\footnote Edit Internet Update Groups}
++{\footnote AGSatTrack0005}
+\pard{\b\f0\fs20\cf0 Edit Internet Update Groups}{
+\par}\pard{\b\f0\fs24\cf0       txtGroupName}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Enter the name of a new group and click add}{
+\par}\pard{\b\f0\fs24\cf0       cmbNames}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 select the element set to add to the current group}{
+\par}\pard{\b\f0\fs24\cf0       Delete}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Removes the selected element set from the current group}{
+\par}\pard{\b\f0\fs24\cf0       Add}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Adds the selected element set to the current group}{
+\par}\pard{\b\f0\fs24\cf0    Path}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 The elemen sets in the current selected group}{
+\par}\pard{\b\f0\fs24\cf0    lstGroups}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 The available element groups}{
+\par}\pard{
+\par}
+\page
+#{\footnote Hlp_Important_Information}
+${\footnote Important Information}
+K{\footnote Important Information}
++{\footnote AGSatTrack0005}
+\pard{\b\f0\fs20\cf0 Important Information}{
+\par}\pard{
+\par}
+\page
+#{\footnote Hlp_AnimatedGifCtl_}
+${\footnote AnimatedGifCtl}
+K{\footnote AnimatedGifCtl}
++{\footnote AGSatTrack0005}
+\pard{\b\f0\fs20\cf0 AnimatedGifCtl}{
+\par}\pard{
+\par}\pard{\b\f0\fs24\cf0 Methods}{
+\par}\pard\li360{\f0\fs24\cf0 b SetBackColor()}{
+\par}\pard\li360{\f0\fs24\cf0  Sub RenderGif(ctr As Long)}{
+\par}\pard\li360{\f0\fs24\cf0 ction fGetGifFileName() As String}{
+\par}\pard\li360{\f0\fs24\cf0  Sub Refresh()}{
+\par}\pard\li360{\f0\fs24\cf0  Sub StopGif()}{
+\par}\pard\li360{\f0\fs24\cf0 tion LoadGif(getFname As Boolean) As Variant}{
+\par}\pard\li360{\f0\fs24\cf0 tion PaintGif(curframe As Long)}{
+\par}\pard\li360{\f0\fs24\cf0  Sub StartTimer()}{
+\par}\pard\li360{\f0\fs24\cf0  Sub StopTimer()}{
+\par}\pard\li360{\f0\fs24\cf0  Sub ShowAboutBox()}{
+\par}\pard{
+\par}
+\page
+#{\footnote Hlp_Edit_Element}
+${\footnote Edit Element Sets}
+K{\footnote Edit Element Sets}
++{\footnote AGSatTrack0005}
+\pard{\b\f0\fs20\cf0 Edit Element Sets}{
+\par}\pard{
+\par}
+\page
+#{\footnote Hlp_Form1_4}
+${\footnote Form1}
+K{\footnote Form1}
++{\footnote AGSatTrack0005}
+\pard{\b\f0\fs20\cf0 Form1}{
+\par}\pard{
+\par}
+\page
+#{\footnote Hlp_Setup_Rotator}
+${\footnote Setup Rotator}
+K{\footnote Setup Rotator}
++{\footnote AGSatTrack0005}
+\pard{\b\f0\fs20\cf0 Setup Rotator}{
+\par}\pard{
+\par}
+\page
+#{\footnote Hlp_Form1_5}
+${\footnote Form1}
+K{\footnote Form1}
++{\footnote AGSatTrack0005}
+\pard{\b\f0\fs20\cf0 Form1}{
+\par}\pard{
+\par}
+\page
+#{\footnote Hlp_Internet_Keps}
+${\footnote Internet Keps Update}
+K{\footnote Internet Keps Update}
++{\footnote AGSatTrack0005}
+\pard{\b\f0\fs20\cf0 Internet Keps Update}{
+\par}\pard{\b\f0\fs24\cf0    Exit}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Finishe the element update}{
+\par}\pard{\b\f0\fs24\cf0    cmbFiles}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Select the element group to update}{
+\par}\pard{\b\f0\fs24\cf0    Start}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Starts the element update}{
+\par}\pard{\b\f0\fs24\cf0    Stop}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Stops the current element update}{
+\par}\pard{\b\f0\fs24\cf0    Pause}{\b\f0\fs24\cf0\tab}{\f0\fs24\cf0 Pauses the current element update}{
+\par}\pard{
+\par}
+\page
+#{\footnote Hlp_Satellite_Details}
+${\footnote Satellite Details}
+K{\footnote Satellite Details}
++{\footnote AGSatTrack0005}
+\pard{\b\f0\fs20\cf0 Satellite Details}{
+\par}\pard{\f0\fs24\cf0    }{\strike\f0\fs24\cf0 Chooser Menu}{\f0\fs24\cf0 {\v Hlp_Chooser_Menu }}{
+\par}\pard{
+\par}
+\page
+#{\footnote Hlp_Chooser_Menu}
+${\footnote Chooser Menu}
+K{\footnote Chooser Menu}
++{\footnote AGSatTrack0005}
+\pard{\b\f0\fs20\cf0 Chooser Menu}{
+\par}\pard{\b\f0\fs24\cf0    Chooser Menu}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0       Add Field}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          Blank Line}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          Field 1}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          Field 2}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          Field 3}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          Field 4}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          Field 5}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          Field 6}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          Field 7}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          Field 8}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          Field 9}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          Field 10}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          Field 11}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          Field 12}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          Field 13}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          Field 14}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          Field 15}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          Field 16}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          Field 17}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          Field 18}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          Field 19}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          Field 20}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          Field21}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          field22}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          field23}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          field 24}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          field25}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          field26}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          field27}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          field28}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          field29}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          field30}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          field31}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          Field32}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0          field33}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0       Delete Field}{\b\f0\fs24\cf0\tab}{
+\par}\pard{
+\par}
+\page
+#{\footnote Hlp_AGSatTrack_}
+${\footnote AGSatTrack}
+K{\footnote AGSatTrack}
++{\footnote AGSatTrack0005}
+\pard{\b\f0\fs20\cf0 AGSatTrack}{
+\par}\pard{\f0\fs24\cf0    }{\strike\f0\fs24\cf0 SystrayMenu}{\f0\fs24\cf0 {\v Hlp_SystrayMenu_ }}{
+\par}\pard{
+\par}
+\page
+#{\footnote Hlp_SystrayMenu_}
+${\footnote SystrayMenu}
+K{\footnote SystrayMenu}
++{\footnote AGSatTrack0005}
+\pard{\b\f0\fs20\cf0 SystrayMenu}{
+\par}\pard{\b\f0\fs24\cf0    SystrayMenu}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0       Restore}{\b\f0\fs24\cf0\tab}{
+\par}\pard{\b\f0\fs24\cf0       Exit}{\b\f0\fs24\cf0\tab}{
+\par}\pard{
+\par}
+\page}
+

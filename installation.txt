@@ -1,0 +1,22 @@
+Installation instructions
+=========================
+
+
+YOU MUST HAVE INTERNET EXPLORER VERSION 5 OR HIGHER INSTALLED BEFORE INSTALLING THIS VERSION.
+
+1) Uninstall ANY previous versions and reboot your computer.
+
+2) Unzip the two zip files into a single directory.
+
+3) run the setup.exe program
+
+From this version all updated will use the Windows 2000 Installer. This has meant that there is NO update
+available from previous versions to V1.25, sorry about that.
+
+Problems have been reported using the Windows 2000 installer, it seemed to be overwriting some important system Dll's. I
+have installed this version on Windows 98 (se) and Windows ME without any problems. I have NOT verified the installation
+on Windows 95.
+
+Alex Greenland
+G7JGQ
+5th May 2001

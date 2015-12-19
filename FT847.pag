@@ -1,0 +1,98 @@
+VERSION 5.00
+Begin VB.PropertyPage FT847 
+   Caption         =   "FT847"
+   ClientHeight    =   3495
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   5925
+   PaletteMode     =   0  'Halftone
+   ScaleHeight     =   3495
+   ScaleWidth      =   5925
+   Begin VB.TextBox txtFT847CATSettings 
+      Height          =   330
+      Left            =   90
+      TabIndex        =   5
+      Top             =   2320
+      Width           =   2700
+   End
+   Begin VB.CheckBox chkEnable847Sat 
+      Caption         =   "Enable847Sat"
+      Height          =   285
+      Left            =   90
+      TabIndex        =   3
+      Top             =   1420
+      Width           =   2700
+   End
+   Begin VB.TextBox txtPortSettings 
+      Height          =   330
+      Left            =   90
+      TabIndex        =   2
+      Top             =   1020
+      Width           =   2700
+   End
+   Begin VB.CheckBox chkEnable847 
+      Caption         =   "Enable847"
+      Height          =   285
+      Left            =   90
+      TabIndex        =   0
+      Top             =   120
+      Width           =   2700
+   End
+   Begin VB.Label lblFT847CATSettings 
+      Caption         =   "FT847CATSettings:"
+      Height          =   240
+      Left            =   90
+      TabIndex        =   4
+      Top             =   2070
+      Width           =   2700
+   End
+   Begin VB.Label lblPortSettings 
+      Caption         =   "PortSettings:"
+      Height          =   240
+      Left            =   90
+      TabIndex        =   1
+      Top             =   770
+      Width           =   2700
+   End
+End
+Attribute VB_Name = "FT847"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = True
+Private Sub txtFT847CATSettings_Change()
+    Changed = True
+End Sub
+
+
+Private Sub chkEnable847Sat_Click()
+    Changed = True
+End Sub
+
+
+Private Sub txtPortSettings_Change()
+    Changed = True
+End Sub
+
+
+Private Sub chkEnable847_Click()
+    Changed = True
+End Sub
+
+
+Private Sub PropertyPage_ApplyChanges()
+    SelectedControls(0).FT847CATSettings = txtFT847CATSettings.Text
+    SelectedControls(0).Enable847Sat = (chkEnable847Sat.Value = vbChecked)
+    SelectedControls(0).PortSettings = txtPortSettings.Text
+    SelectedControls(0).Enable847 = (chkEnable847.Value = vbChecked)
+End Sub
+
+
+Private Sub PropertyPage_SelectionChanged()
+    txtFT847CATSettings.Text = SelectedControls(0).FT847CATSettings
+    chkEnable847Sat.Value = (SelectedControls(0).Enable847Sat And vbChecked)
+    txtPortSettings.Text = SelectedControls(0).PortSettings
+    chkEnable847.Value = (SelectedControls(0).Enable847 And vbChecked)
+End Sub
+
+

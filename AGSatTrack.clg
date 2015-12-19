@@ -1,0 +1,101 @@
+[frmProgramOptions]
+FORMCONTEXTID= 55
+chkAlwaysTrack= 0
+optRotator= 0
+txtFTPImagesDir= 0
+txtFTPHTMLDir= 0
+txtFTPTemplate= 0
+txtFTPPassword= 0
+txtFTPUsername= 0
+txtFTPServer= 0
+chkPasv= 0
+txtTimeout= 0
+chkProxy= 0
+txtProxyIP= 0
+txtProxyPort= 0
+chkFTPPRoxy= 0
+cmbSecondObs= 0
+txtSecondLat= 0
+txtSecondLong= 0
+txtSecondName= 0
+txtSecondHeight= 0
+chkEnableSecond= 0
+txtLatitude= 0
+txtLongitude= 0
+txtLocation= 0
+txtHeight= 0
+chkbOrthSahde= 0
+txtGTPS= 0
+chkIcons= 0
+txtUpdate= 0
+chkAutoAdjust= 0
+chkDaylightSaving= 0
+cmbTimezones= 0
+txtSpeech= 0
+chkSpeech= 0
+chkSysTray= 0
+txtKepsAge= 0
+chkSaveOpen= 0
+chkSetupVis= 0
+[frmWindowOptions]
+FORMCONTEXTID= 65
+chkEnableSecond= 0
+txtSecondHeight= 0
+txtSecondName= 0
+txtSecondLong= 0
+txtSecondLat= 0
+cmbSecondObs= 0
+txtLatitude= 0
+txtLongitude= 0
+txtLocation= 0
+txtHeight= 0
+[frmPasses]
+FORMCONTEXTID= 105
+txtDays= 0
+dtpDate= 0
+chkAOSLOSOnly= 0
+lstSats= 0
+[frmGantt]
+FORMCONTEXTID= 135
+mnuGantt= 1310
+mnuGanttSat= 0
+mnuGanttDetails= 0
+[frmEditElementGroups]
+FORMCONTEXTID= 1330
+txtGroupName= 0
+cmbNames= 0
+cmdDelete= 0
+cmdAdd= 0
+lstDetails= 0
+lstGroups= 0
+[AnimatedGifCtl]
+FORMCONTEXTID= 0
+b SetBackColor()= 0
+Sub RenderGif(ctr As Long)= 0
+ction fGetGifFileName() As String= 0
+Sub Refresh()= 0
+Sub StopGif()= 0
+tion LoadGif(getFname As Boolean) As Variant= 0
+tion PaintGif(curframe As Long)= 0
+Sub StartTimer()= 0
+Sub StopTimer()= 0
+Sub ShowAboutBox()= 0
+[frmFTPMain]
+FORMCONTEXTID= 1400
+cmdExit= 0
+cmbFiles= 0
+cmdDownload= 0
+cmdStop= 0
+cmdPause= 0
+[frmSatDetail]
+FORMCONTEXTID= 1410
+mnuChooserMenu= 2310
+mnuFCAdd= 0
+menuBlank= 0
+mnuFCField= 0
+mnuFCDelete= 0
+[frmMain]
+FORMCONTEXTID= 2320
+mnuSysMenu= 2410
+SysTrayRestore= 0
+SysTrayExit= 0

@@ -1,0 +1,5 @@
+Geostationary,geo.txt,ftp.celestrak.com,/elements
+Amateur,amateur.txt,ftp.celestrak.com,/elements
+New,tle-new.txt,ftp.celestrak.com,/elements
+Weather,weather.txt,ftp.celestrak.com,/elements
+Visual,visual.txt,ftp.celestrak.com,/elements

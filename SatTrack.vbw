@@ -1,0 +1,16 @@
+SatTrackControl = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+Module1 = 0, 0, 0, 0, C
+clsSunrise = 0, 0, 0, 0, C
+CWaitCursor = 0, 0, 0, 0, C
+cMoonPhase = 0, 0, 0, 0, C
+ft847_Commands = 0, 0, 0, 0, C
+frmRadio = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+EnhancedErrors_Module = 0, 0, 0, 0, C
+class_Error = 0, 0, 0, 0, C
+frmModeSelect = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmAboutOcx = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+General = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+FT847 = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+Display = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+Observer = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+ScrollingViewPort = 0, 0, 0, 0, C, 0, 0, 0, 0, C

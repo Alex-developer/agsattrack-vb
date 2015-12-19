@@ -1,0 +1,438 @@
+VERSION 5.00
+Begin VB.PropertyPage Display 
+   Caption         =   "Display"
+   ClientHeight    =   3495
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   5925
+   PaletteMode     =   0  'Halftone
+   ScaleHeight     =   3495
+   ScaleWidth      =   5925
+   Begin VB.CheckBox chkSetActiveWindowAsWallpaper 
+      Caption         =   "SetActiveWindowAsWallpaper"
+      Height          =   285
+      Left            =   11730
+      TabIndex        =   33
+      Top             =   770
+      Width           =   2700
+   End
+   Begin VB.TextBox txtSatPosLabelAlign 
+      Height          =   330
+      Left            =   11730
+      TabIndex        =   32
+      Top             =   370
+      Width           =   2700
+   End
+   Begin VB.TextBox txtViewsOrthLocations 
+      Height          =   330
+      Left            =   8820
+      TabIndex        =   30
+      Top             =   2970
+      Width           =   2700
+   End
+   Begin VB.CheckBox chkViewsOrthShade 
+      Caption         =   "ViewsOrthShade"
+      Height          =   285
+      Left            =   8820
+      TabIndex        =   28
+      Top             =   2070
+      Width           =   2700
+   End
+   Begin VB.TextBox txtDaylightSavingAdjust 
+      Height          =   330
+      Left            =   8820
+      TabIndex        =   27
+      Top             =   1670
+      Width           =   2700
+   End
+   Begin VB.TextBox txtTimeZoneName 
+      Height          =   330
+      Left            =   8820
+      TabIndex        =   25
+      Top             =   1020
+      Width           =   2700
+   End
+   Begin VB.TextBox txtDisplayDataFields 
+      Height          =   330
+      Left            =   8820
+      TabIndex        =   23
+      Top             =   370
+      Width           =   2700
+   End
+   Begin VB.CheckBox chkDaylightSaving 
+      Caption         =   "DaylightSaving"
+      Height          =   285
+      Left            =   5910
+      TabIndex        =   21
+      Top             =   2720
+      Width           =   2700
+   End
+   Begin VB.TextBox txtTimeZone 
+      Height          =   330
+      Left            =   5910
+      TabIndex        =   20
+      Top             =   2320
+      Width           =   2700
+   End
+   Begin VB.CheckBox chkDisplayFootprints 
+      Caption         =   "DisplayFootprints"
+      Height          =   285
+      Left            =   5910
+      TabIndex        =   18
+      Top             =   1420
+      Width           =   2700
+   End
+   Begin VB.CheckBox chkDisplayTimes 
+      Caption         =   "DisplayTimes"
+      Height          =   285
+      Left            =   5910
+      TabIndex        =   17
+      Top             =   770
+      Width           =   2700
+   End
+   Begin VB.CheckBox chkDisplayTracks 
+      Caption         =   "DisplayTracks"
+      Height          =   285
+      Left            =   5910
+      TabIndex        =   16
+      Top             =   120
+      Width           =   2700
+   End
+   Begin VB.CheckBox chkDisplayMoonFootprint 
+      Caption         =   "DisplayMoonFootprint"
+      Height          =   285
+      Left            =   3000
+      TabIndex        =   15
+      Top             =   2720
+      Width           =   2700
+   End
+   Begin VB.CheckBox chkDisplaySunFootprint 
+      Caption         =   "DisplaySunFootprint"
+      Height          =   285
+      Left            =   3000
+      TabIndex        =   14
+      Top             =   2070
+      Width           =   2700
+   End
+   Begin VB.CheckBox chkDisplayMoon 
+      Caption         =   "DisplayMoon"
+      Height          =   285
+      Left            =   3000
+      TabIndex        =   13
+      Top             =   1420
+      Width           =   2700
+   End
+   Begin VB.CheckBox chkDisplaySun 
+      Caption         =   "DisplaySun"
+      Height          =   285
+      Left            =   3000
+      TabIndex        =   12
+      Top             =   770
+      Width           =   2700
+   End
+   Begin VB.TextBox txtObserverLocation 
+      Height          =   330
+      Left            =   3000
+      TabIndex        =   11
+      Top             =   370
+      Width           =   2700
+   End
+   Begin VB.TextBox txtOutputStyle 
+      Height          =   330
+      Left            =   90
+      TabIndex        =   9
+      Top             =   2970
+      Width           =   2700
+   End
+   Begin VB.TextBox txtObserverMapCentre 
+      Height          =   330
+      Left            =   90
+      TabIndex        =   7
+      Top             =   2320
+      Width           =   2700
+   End
+   Begin VB.TextBox txtObserverLatitude 
+      Height          =   330
+      Left            =   90
+      TabIndex        =   5
+      Top             =   1670
+      Width           =   2700
+   End
+   Begin VB.TextBox txtObserverLongitude 
+      Height          =   330
+      Left            =   90
+      TabIndex        =   3
+      Top             =   1020
+      Width           =   2700
+   End
+   Begin VB.TextBox txtObserverHeight 
+      Height          =   330
+      Left            =   90
+      TabIndex        =   1
+      Top             =   370
+      Width           =   2700
+   End
+   Begin VB.Label lblSatPosLabelAlign 
+      Caption         =   "SatPosLabelAlign:"
+      Height          =   240
+      Left            =   11730
+      TabIndex        =   31
+      Top             =   120
+      Width           =   2700
+   End
+   Begin VB.Label lblViewsOrthLocations 
+      Caption         =   "ViewsOrthLocations:"
+      Height          =   240
+      Left            =   8820
+      TabIndex        =   29
+      Top             =   2720
+      Width           =   2700
+   End
+   Begin VB.Label lblDaylightSavingAdjust 
+      Caption         =   "DaylightSavingAdjust:"
+      Height          =   240
+      Left            =   8820
+      TabIndex        =   26
+      Top             =   1420
+      Width           =   2700
+   End
+   Begin VB.Label lblTimeZoneName 
+      Caption         =   "TimeZoneName:"
+      Height          =   240
+      Left            =   8820
+      TabIndex        =   24
+      Top             =   770
+      Width           =   2700
+   End
+   Begin VB.Label lblDisplayDataFields 
+      Caption         =   "DisplayDataFields:"
+      Height          =   240
+      Left            =   8820
+      TabIndex        =   22
+      Top             =   120
+      Width           =   2700
+   End
+   Begin VB.Label lblTimeZone 
+      Caption         =   "TimeZone:"
+      Height          =   240
+      Left            =   5910
+      TabIndex        =   19
+      Top             =   2070
+      Width           =   2700
+   End
+   Begin VB.Label lblObserverLocation 
+      Caption         =   "ObserverLocation:"
+      Height          =   240
+      Left            =   3000
+      TabIndex        =   10
+      Top             =   120
+      Width           =   2700
+   End
+   Begin VB.Label lblOutputStyle 
+      Caption         =   "OutputStyle:"
+      Height          =   240
+      Left            =   90
+      TabIndex        =   8
+      Top             =   2720
+      Width           =   2700
+   End
+   Begin VB.Label lblObserverMapCentre 
+      Caption         =   "ObserverMapCentre:"
+      Height          =   240
+      Left            =   90
+      TabIndex        =   6
+      Top             =   2070
+      Width           =   2700
+   End
+   Begin VB.Label lblObserverLatitude 
+      Caption         =   "ObserverLatitude:"
+      Height          =   240
+      Left            =   90
+      TabIndex        =   4
+      Top             =   1420
+      Width           =   2700
+   End
+   Begin VB.Label lblObserverLongitude 
+      Caption         =   "ObserverLongitude:"
+      Height          =   240
+      Left            =   90
+      TabIndex        =   2
+      Top             =   770
+      Width           =   2700
+   End
+   Begin VB.Label lblObserverHeight 
+      Caption         =   "ObserverHeight:"
+      Height          =   240
+      Left            =   90
+      TabIndex        =   0
+      Top             =   120
+      Width           =   2700
+   End
+End
+Attribute VB_Name = "Display"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = True
+Private Sub chkSetActiveWindowAsWallpaper_Click()
+    Changed = True
+End Sub
+
+
+Private Sub txtSatPosLabelAlign_Change()
+    Changed = True
+End Sub
+
+
+Private Sub txtViewsOrthLocations_Change()
+    Changed = True
+End Sub
+
+
+Private Sub chkViewsOrthShade_Click()
+    Changed = True
+End Sub
+
+
+Private Sub txtDaylightSavingAdjust_Change()
+    Changed = True
+End Sub
+
+
+Private Sub txtTimeZoneName_Change()
+    Changed = True
+End Sub
+
+
+Private Sub txtDisplayDataFields_Change()
+    Changed = True
+End Sub
+
+
+Private Sub chkDaylightSaving_Click()
+    Changed = True
+End Sub
+
+
+Private Sub txtTimeZone_Change()
+    Changed = True
+End Sub
+
+
+Private Sub chkDisplayFootprints_Click()
+    Changed = True
+End Sub
+
+
+Private Sub chkDisplayTimes_Click()
+    Changed = True
+End Sub
+
+
+Private Sub chkDisplayTracks_Click()
+    Changed = True
+End Sub
+
+
+Private Sub chkDisplayMoonFootprint_Click()
+    Changed = True
+End Sub
+
+
+Private Sub chkDisplaySunFootprint_Click()
+    Changed = True
+End Sub
+
+
+Private Sub chkDisplayMoon_Click()
+    Changed = True
+End Sub
+
+
+Private Sub chkDisplaySun_Click()
+    Changed = True
+End Sub
+
+
+Private Sub txtObserverLocation_Change()
+    Changed = True
+End Sub
+
+
+Private Sub txtOutputStyle_Change()
+    Changed = True
+End Sub
+
+
+Private Sub txtObserverMapCentre_Change()
+    Changed = True
+End Sub
+
+
+Private Sub txtObserverLatitude_Change()
+    Changed = True
+End Sub
+
+
+Private Sub txtObserverLongitude_Change()
+    Changed = True
+End Sub
+
+
+Private Sub txtObserverHeight_Change()
+    Changed = True
+End Sub
+
+
+Private Sub PropertyPage_ApplyChanges()
+    SelectedControls(0).SetActiveWindowAsWallpaper = (chkSetActiveWindowAsWallpaper.Value = vbChecked)
+    SelectedControls(0).SatPosLabelAlign = txtSatPosLabelAlign.Text
+    SelectedControls(0).ViewsOrthLocations = txtViewsOrthLocations.Text
+    SelectedControls(0).ViewsOrthShade = (chkViewsOrthShade.Value = vbChecked)
+    SelectedControls(0).DaylightSavingAdjust = txtDaylightSavingAdjust.Text
+    SelectedControls(0).TimeZoneName = txtTimeZoneName.Text
+    SelectedControls(0).DisplayDataFields = txtDisplayDataFields.Text
+    SelectedControls(0).DaylightSaving = (chkDaylightSaving.Value = vbChecked)
+    SelectedControls(0).TimeZone = txtTimeZone.Text
+    SelectedControls(0).DisplayFootprints = (chkDisplayFootprints.Value = vbChecked)
+    SelectedControls(0).DisplayTimes = (chkDisplayTimes.Value = vbChecked)
+    SelectedControls(0).DisplayTracks = (chkDisplayTracks.Value = vbChecked)
+    SelectedControls(0).DisplayMoonFootprint = (chkDisplayMoonFootprint.Value = vbChecked)
+    SelectedControls(0).DisplaySunFootprint = (chkDisplaySunFootprint.Value = vbChecked)
+    SelectedControls(0).DisplayMoon = (chkDisplayMoon.Value = vbChecked)
+    SelectedControls(0).DisplaySun = (chkDisplaySun.Value = vbChecked)
+    SelectedControls(0).ObserverLocation = txtObserverLocation.Text
+    SelectedControls(0).OutputStyle = txtOutputStyle.Text
+    SelectedControls(0).ObserverMapCentre = txtObserverMapCentre.Text
+    SelectedControls(0).ObserverLatitude = txtObserverLatitude.Text
+    SelectedControls(0).ObserverLongitude = txtObserverLongitude.Text
+    SelectedControls(0).ObserverHeight = txtObserverHeight.Text
+End Sub
+
+
+Private Sub PropertyPage_SelectionChanged()
+    chkSetActiveWindowAsWallpaper.Value = (SelectedControls(0).SetActiveWindowAsWallpaper And vbChecked)
+    txtSatPosLabelAlign.Text = SelectedControls(0).SatPosLabelAlign
+    txtViewsOrthLocations.Text = SelectedControls(0).ViewsOrthLocations
+    chkViewsOrthShade.Value = (SelectedControls(0).ViewsOrthShade And vbChecked)
+    txtDaylightSavingAdjust.Text = SelectedControls(0).DaylightSavingAdjust
+    txtTimeZoneName.Text = SelectedControls(0).TimeZoneName
+    txtDisplayDataFields.Text = SelectedControls(0).DisplayDataFields
+    chkDaylightSaving.Value = (SelectedControls(0).DaylightSaving And vbChecked)
+    txtTimeZone.Text = SelectedControls(0).TimeZone
+    chkDisplayFootprints.Value = (SelectedControls(0).DisplayFootprints And vbChecked)
+    chkDisplayTimes.Value = (SelectedControls(0).DisplayTimes And vbChecked)
+    chkDisplayTracks.Value = (SelectedControls(0).DisplayTracks And vbChecked)
+    chkDisplayMoonFootprint.Value = (SelectedControls(0).DisplayMoonFootprint And vbChecked)
+    chkDisplaySunFootprint.Value = (SelectedControls(0).DisplaySunFootprint And vbChecked)
+    chkDisplayMoon.Value = (SelectedControls(0).DisplayMoon And vbChecked)
+    chkDisplaySun.Value = (SelectedControls(0).DisplaySun And vbChecked)
+    txtObserverLocation.Text = SelectedControls(0).ObserverLocation
+    txtOutputStyle.Text = SelectedControls(0).OutputStyle
+    txtObserverMapCentre.Text = SelectedControls(0).ObserverMapCentre
+    txtObserverLatitude.Text = SelectedControls(0).ObserverLatitude
+    txtObserverLongitude.Text = SelectedControls(0).ObserverLongitude
+    txtObserverHeight.Text = SelectedControls(0).ObserverHeight
+End Sub
+
+

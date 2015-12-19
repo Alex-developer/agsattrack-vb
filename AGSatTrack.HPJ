@@ -1,0 +1,55 @@
+[OPTIONS]
+ERRORLOG=C:\Documents and Settings\Administrator\My Documents\DEVELOP\Visual Basic\Satellite Tracking Backup\AGSatTrack.ERR
+ROOT=C:\DOCUME~1\ADMINI~1\MYDOCU~1\DEVELOP\VISUAL~2\SATELL~1
+COMPRESS=OFF
+CONTENTS = Hlp_frmSplash_                                                  
+REPORT=ON
+TITLE=Windows Help
+WARNING=1
+
+[WINDOWS]
+main="Windows Help", ( 255 , 255 , 511 , 511  ), 0 ,(r 14876671 ),(r 14876671 )
+HlpWnd02="Window 2", ( 511 , 0 , 511 , 1000  ), 0 ,(r 14876671 ),(r 14876671 )
+HlpWnd03="Window 3", ( 255 , 511 , 511 , 511  ), 0 ,(r 14876671 ),(r 14876671 )
+HlpWnd04="Window 4", ( 255 , 511 , 511 , 511  ), 0 ,(r 14876671 ),(r 14876671 )
+HlpWnd05="Window 5", ( 255 , 511 , 511 , 511  ), 0 ,(r 14876671 ),(r 14876671 )
+HlpWnd06="Window 6", ( 255 , 511 , 511 , 511  ), 0 ,(r 14876671 ),(r 14876671 )
+
+[CONFIG]
+RR("mmsystem","sndPlaySound","Su")
+BrowseButtons()
+
+[BITMAPS]
+C:\Program Files\HelpWriter32\GLOSSARY.SHG
+
+[MAP]
+Hlp_frmSplash_  10
+Hlp_Available_satellites  35
+Hlp_frmDocument_  45
+Hlp_Program_Options  55
+Hlp_Window_Options  65
+Hlp_About_MyApp  75
+Hlp_Register_AGSatTrack  85
+Hlp_Registration_Information  95
+Hlp_Predictions_  105
+Hlp_Form1_  115
+Hlp_Form1_1  125
+Hlp_Form1_2  135
+Hlp_Gantt_Menu  1310
+Hlp_Form1_3  1320
+Hlp_Edit_Internet  1330
+Hlp_Important_Information  1340
+Hlp_AnimatedGifCtl_  1350
+Hlp_Edit_Element  1360
+Hlp_Form1_4  1370
+Hlp_Setup_Rotator  1380
+Hlp_Form1_5  1390
+Hlp_Internet_Keps  1400
+Hlp_Satellite_Details  1410
+Hlp_Chooser_Menu  2310
+Hlp_AGSatTrack_  2320
+Hlp_SystrayMenu_  2410
+GLOSSARY 64000
+
+[FILES]
+C:\Documents and Settings\Administrator\My Documents\DEVELOP\Visual Basic\Satellite Tracking Backup\AGSatTrack.p01

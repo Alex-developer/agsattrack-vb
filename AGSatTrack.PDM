@@ -1,0 +1,930 @@
+[Root]
+Most Recent Package=AGSatTrack V1.24 Update
+
+
+[Package|AGSatTrack Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\My Documents\DEVELOP\Install\Satellite Tracking
+
+[Package|AGSatTrack Setup|Configure DAO ISAMs]
+Applicable=No
+Text=No
+Excel=No
+Lotus=No
+Xbase=No
+Paradox=No
+Jet 2.x=Yes
+Exchange=No
+
+[Package|AGSatTrack Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|AGSatTrack Setup|Files Found]
+
+[Package|AGSatTrack Setup|Files Released]
+Default.mdb=
+amateur.mdb=
+ObserverLocations.mdb=
+
+[Package|AGSatTrack Setup|Missing Dependency Information]
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\SatTrack.ocx=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Animation\CGAnimation.dll=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\cbotknob.ocx=
+C:\WINDOWS\SYSTEM\MSVCP60D.DLL=
+C:\WINDOWS\SYSTEM\MSVCRTD.DLL=
+C:\WINDOWS\SYSTEM\WININET.DLL=
+C:\WINDOWS\SYSTEM\MSVCP60.DLL=
+
+[Package|AGSatTrack Setup|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\SatTrack.ocx=
+
+[Package|AGSatTrack Setup|Files Added]
+c:\my documents\develop\visual basic\radio\satellite tracking\observer\observerlocations.txt=
+c:\my documents\develop\visual basic\radio\satellite tracking\elements\amateur.txt=
+c:\my documents\develop\visual basic\radio\satellite tracking\elements\gps.txt=
+c:\my documents\develop\visual basic\radio\satellite tracking\elements\weather.txt=
+c:\my documents\develop\visual basic\radio\satellite tracking\images\horizon3.gif=
+c:\my documents\develop\visual basic\radio\satellite tracking\images\mainmap.gif=
+c:\my documents\develop\visual basic\radio\satellite tracking\images\map1.gif=
+c:\my documents\develop\visual basic\radio\satellite tracking\images\map2.gif=
+c:\my documents\develop\visual basic\radio\satellite tracking\images\reversemap.gif=
+c:\my documents\develop\visual basic\radio\satellite tracking\frequencies\frequencies.txt=
+c:\my documents\develop\visual basic\radio\satellite tracking\register.rtf=
+c:\my documents\develop\visual basic\radio\satellite tracking\observer\globe.dat=
+c:\my documents\develop\visual c++\agglobe\release\agglobe.dll=
+c:\my documents\develop\visual basic\radio\satellite tracking\cbotknob.ocx=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetFull.dat=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetHam.dat=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetHamWx.dat=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Views\Dir.txt=
+C:\WINDOWS\SYSTEM\MSVCP60.DLL=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\List.src=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\License.rtf=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.rtf=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon2.gif=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon.gif=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Readme.txt=
+
+[Package|AGSatTrack Setup|Files Removed]
+c:\windows\system\wininet.dll=
+
+[Package|AGSatTrack Setup|Files In Project]
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\SatTrack.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Sheridan\ActiveToolBarsPlus\sstbars2.ocx=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Observer\ObserverLocations.txt=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\Amateur.txt=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\gps.txt=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\weather.txt=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon3.gif=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\MainMap.gif=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Map1.gif=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\map2.gif=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\ReverseMap.gif=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Frequencies\Frequencies.txt=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Register.rtf=Yes
+C:\Program Files\Sheridan\ActiveToolBarsPlus\sstabs2.ocx=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Observer\Globe.dat=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\cbotknob.ocx=Yes
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\WINDOWS\SYSTEM\WININET.DLL=No
+C:\WINDOWS\SYSTEM\AgGlobe.dll=Yes
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Xvoice.dll=Yes
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=Yes
+C:\WINDOWS\SYSTEM\COMCT332.OCX=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.hlp=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\msvbvm60.dll=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetHamWx.dat=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetHam.dat=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetFull.dat=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\List.src=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Views\Dir.txt=Yes
+
+[Package|AGSatTrack Setup|Configure Registry Files]
+Applicable=No
+
+[Package|AGSatTrack Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|AGSatTrack Setup|Install Locations]
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\Program Files\ActiveToolBars\sstbars.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Animation\CGAnimation.dll=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjint35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrepl35.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\SatTrack.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\Default.mdb=$(AppPath)\Elements
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Map1.bmp=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\map2.bmp=$(AppPath)\Images
+C:\Program Files\Sheridan\ActiveToolBarsPlus\sstbars2.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Observer\ObserverLocations.mdb=$(AppPath)\Observer
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\amateur.mdb=$(AppPath)\Elements
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\ReverseMap.bmp=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\map.bmp=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon.bmp=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon2.bmp=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon3.bmp=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Observer\ObserverLocations.txt=$(AppPath)\Observer
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\Amateur.txt=$(AppPath)\Elements
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\gps.txt=$(AppPath)\Elements
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\weather.txt=$(AppPath)\Elements
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon3.gif=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\MainMap.gif=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Map1.gif=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\map2.gif=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\ReverseMap.gif=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Frequencies\Frequencies.txt=$(AppPath)\Frequencies
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Register.rtf=$(AppPath)
+C:\Program Files\Sheridan\ActiveToolBarsPlus\sstabs2.ocx=$(WinSysPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Observer\Globe.dat=$(AppPath)\Observer
+C:\My Documents\DEVELOP\Visual C++\AgGlobe\Debug\AgGlobe.dll=$(WinSysPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\cbotknob.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\My Documents\DEVELOP\Visual C++\AgGlobe\Release\AgGlobe.dll=$(WinSysPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetFull.dat=$(AppPath)\Internet Updates
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetHam.dat=$(AppPath)\Internet Updates
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetHamWx.dat=$(AppPath)\Internet Updates
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\WININET.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\AgGlobe.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Xvoice.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCT332.OCX=$(WinSysPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.hlp=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\msvbvm60.dll=$(WinSysPathSysFile)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Views\Dir.txt=$(AppPath)\Views
+C:\WINDOWS\SYSTEM\MSVCP60.DLL=$(WinSysPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\List.src=$(AppPath)\Internet Updates
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\License.rtf=$(AppPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.rtf=$(AppPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon2.gif=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon.gif=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Readme.txt=$(AppPath)
+
+[Package|AGSatTrack Setup|Configure Shared Files]
+Applicable=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.exe=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\Default.mdb=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Map1.bmp=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\map2.bmp=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Observer\ObserverLocations.mdb=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\amateur.mdb=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\ReverseMap.bmp=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\map.bmp=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon.bmp=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon2.bmp=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon3.bmp=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Observer\ObserverLocations.txt=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\Amateur.txt=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\gps.txt=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\weather.txt=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon3.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\MainMap.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Map1.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\map2.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\ReverseMap.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Frequencies\Frequencies.txt=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Register.rtf=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Observer\Globe.dat=No
+C:\My Documents\DEVELOP\Visual C++\AgGlobe\Debug\AgGlobe.dll=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetFull.dat=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetHam.dat=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetHamWx.dat=No
+C:\WINDOWS\SYSTEM\AgGlobe.dll=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.hlp=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Views\Dir.txt=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\List.src=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\License.rtf=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.rtf=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon2.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Readme.txt=No
+
+[Package|AGSatTrack Setup|Distribution]
+Type=multi
+Size=1.44 MB
+Title=AGSatTrack
+
+[Package|AGSatTrack Setup|Package]
+PackageFolder=C:\My Documents\DEVELOP\Install\Satellite Tracking
+ProjectFolder=C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking
+ServerSideCab=
+File1=C:\My Documents\DEVELOP\Install\Satellite Tracking\setup.exe
+File2=C:\My Documents\DEVELOP\Install\Satellite Tracking\Setup.Lst
+File3=C:\My Documents\DEVELOP\Install\Satellite Tracking\AGSatT1.CAB
+File4=C:\My Documents\DEVELOP\Install\Satellite Tracking\AGSatT2.CAB
+File5=C:\My Documents\DEVELOP\Install\Satellite Tracking\AGSatT3.CAB
+File6=C:\My Documents\DEVELOP\Install\Satellite Tracking\AGSatT4.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+[Package|AGSatTrack Setup|IconGroups]
+Group0=AGSatTrack
+PrivateGroup0=-1
+Parent0=$(Programs)
+Group1=$(Start Menu)
+PrivateGroup1=-1
+Parent1=
+
+[Package|AGSatTrack Setup|AGSatTrack]
+Icon1=AGSatTrack.exe
+Title1=AGSatTrack
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|AGSatTrack Setup|$(Start Menu)]
+Icon1=AGSatTrack.exe
+Title1=AG SatTrack
+StartIn1=$(AppPath)
+Key1=Icon3
+
+
+[Package|AGSatTrack V1.23 Update|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\My Documents\DEVELOP\Install\AGSatTrack 123 Update
+
+[Package|AGSatTrack V1.23 Update|Configure DAO ISAMs]
+Applicable=No
+Text=No
+Excel=No
+Lotus=No
+Xbase=No
+Paradox=No
+Jet 2.x=Yes
+Exchange=No
+
+[Package|AGSatTrack V1.23 Update|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|AGSatTrack V1.23 Update|Files Found]
+
+[Package|AGSatTrack V1.23 Update|Files Released]
+Default.mdb=
+amateur.mdb=
+ObserverLocations.mdb=
+
+[Package|AGSatTrack V1.23 Update|Missing Dependency Information]
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\SatTrack.ocx=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Animation\CGAnimation.dll=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\cbotknob.ocx=
+C:\WINDOWS\SYSTEM\MSVCP60D.DLL=
+C:\WINDOWS\SYSTEM\MSVCRTD.DLL=
+C:\WINDOWS\SYSTEM\WININET.DLL=
+C:\WINDOWS\SYSTEM\MSVCP60.DLL=
+C:\My Documents\DEVELOP\Visual Basic\Radio\SimpleTrack\SimpleTrack.exe=
+
+[Package|AGSatTrack V1.23 Update|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\SatTrack.ocx=
+
+[Package|AGSatTrack V1.23 Update|Files Added]
+c:\my documents\develop\visual basic\radio\satellite tracking\observer\observerlocations.txt=
+c:\my documents\develop\visual basic\radio\satellite tracking\elements\amateur.txt=
+c:\my documents\develop\visual basic\radio\satellite tracking\elements\gps.txt=
+c:\my documents\develop\visual basic\radio\satellite tracking\elements\weather.txt=
+c:\my documents\develop\visual basic\radio\satellite tracking\images\horizon3.gif=
+c:\my documents\develop\visual basic\radio\satellite tracking\images\mainmap.gif=
+c:\my documents\develop\visual basic\radio\satellite tracking\images\map1.gif=
+c:\my documents\develop\visual basic\radio\satellite tracking\images\map2.gif=
+c:\my documents\develop\visual basic\radio\satellite tracking\images\reversemap.gif=
+c:\my documents\develop\visual basic\radio\satellite tracking\frequencies\frequencies.txt=
+c:\my documents\develop\visual basic\radio\satellite tracking\register.rtf=
+c:\my documents\develop\visual basic\radio\satellite tracking\observer\globe.dat=
+c:\my documents\develop\visual c++\agglobe\release\agglobe.dll=
+c:\my documents\develop\visual basic\radio\satellite tracking\cbotknob.ocx=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetFull.dat=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetHam.dat=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetHamWx.dat=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Views\Dir.txt=
+C:\WINDOWS\SYSTEM\MSVCP60.DLL=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\List.src=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\License.rtf=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.rtf=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon2.gif=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon.gif=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Readme.txt=
+C:\My Documents\DEVELOP\Visual Basic\Radio\SimpleTrack\SimpleTrack.exe=
+
+[Package|AGSatTrack V1.23 Update|Files Removed]
+c:\windows\system\wininet.dll=
+c:\my documents\develop\visual basic\radio\satellite tracking\elements\weather.txt=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\msvbvm60.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\oleaut32.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\olepro32.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\asycfilt.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\stdole2.tlb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+c:\program files\sheridan\activetoolbarsplus\sstbars2.ocx=
+c:\program files\sheridan\activetoolbarsplus\sstabs2.ocx=
+c:\my documents\develop\visual basic\radio\satellite tracking\observer\observerlocations.txt=
+c:\windows\system\mscomctl.ocx=
+c:\windows\system\mscomm32.ocx=
+c:\windows\system\mscomct2.ocx=
+c:\my documents\develop\visual basic\radio\satellite tracking\elements\gps.txt=
+c:\my documents\develop\visual basic\radio\satellite tracking\frequencies\frequencies.txt=
+c:\windows\system\comdlg32.ocx=
+c:\windows\system\comct332.ocx=
+c:\my documents\develop\visual basic\radio\satellite tracking\cbotknob.ocx=
+c:\my documents\develop\visual basic\radio\satellite tracking\elements\amateur.txt=
+c:\my documents\develop\visual basic\radio\satellite tracking\images\map2.gif=
+c:\my documents\develop\visual basic\radio\satellite tracking\images\map1.gif=
+c:\my documents\develop\visual basic\radio\satellite tracking\images\horizon3.gif=
+c:\windows\system\msvcrt.dll=
+c:\my documents\develop\visual basic\radio\satellite tracking\images\mainmap.gif=
+c:\my documents\develop\visual basic\radio\satellite tracking\images\reversemap.gif=
+c:\windows\system\msstkprp.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\riched32.dll=
+c:\windows\system\richtx32.ocx=
+
+[Package|AGSatTrack V1.23 Update|Files In Project]
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=No
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\SatTrack.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Sheridan\ActiveToolBarsPlus\sstbars2.ocx=No
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Observer\ObserverLocations.txt=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\Amateur.txt=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\gps.txt=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\weather.txt=No
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon3.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\MainMap.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Map1.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\map2.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\ReverseMap.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Frequencies\Frequencies.txt=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Register.rtf=Yes
+C:\Program Files\Sheridan\ActiveToolBarsPlus\sstabs2.ocx=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Observer\Globe.dat=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\cbotknob.ocx=No
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=No
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=No
+C:\WINDOWS\SYSTEM\WININET.DLL=No
+C:\WINDOWS\SYSTEM\AgGlobe.dll=Yes
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Xvoice.dll=Yes
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=No
+C:\WINDOWS\SYSTEM\COMCT332.OCX=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.hlp=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\msvbvm60.dll=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Views\Dir.txt=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\License.rtf=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.rtf=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\SimpleTrack\SimpleTrack.exe=Yes
+
+[Package|AGSatTrack V1.23 Update|Configure Registry Files]
+Applicable=No
+
+[Package|AGSatTrack V1.23 Update|Configure Remote Servers]
+Applicable=No
+
+[Package|AGSatTrack V1.23 Update|Install Locations]
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\Program Files\ActiveToolBars\sstbars.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Animation\CGAnimation.dll=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjint35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrepl35.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\SatTrack.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\Default.mdb=$(AppPath)\Elements
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Map1.bmp=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\map2.bmp=$(AppPath)\Images
+C:\Program Files\Sheridan\ActiveToolBarsPlus\sstbars2.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Observer\ObserverLocations.mdb=$(AppPath)\Observer
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\amateur.mdb=$(AppPath)\Elements
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\ReverseMap.bmp=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\map.bmp=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon.bmp=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon2.bmp=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon3.bmp=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Observer\ObserverLocations.txt=$(AppPath)\Observer
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\Amateur.txt=$(AppPath)\Elements
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\gps.txt=$(AppPath)\Elements
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\weather.txt=$(AppPath)\Elements
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon3.gif=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\MainMap.gif=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Map1.gif=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\map2.gif=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\ReverseMap.gif=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Frequencies\Frequencies.txt=$(AppPath)\Frequencies
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Register.rtf=$(AppPath)
+C:\Program Files\Sheridan\ActiveToolBarsPlus\sstabs2.ocx=$(WinSysPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Observer\Globe.dat=$(AppPath)\Observer
+C:\My Documents\DEVELOP\Visual C++\AgGlobe\Debug\AgGlobe.dll=$(WinSysPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\cbotknob.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\My Documents\DEVELOP\Visual C++\AgGlobe\Release\AgGlobe.dll=$(WinSysPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetFull.dat=$(AppPath)\Internet Updates
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetHam.dat=$(AppPath)\Internet Updates
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetHamWx.dat=$(AppPath)\Internet Updates
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\WININET.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\AgGlobe.dll=$(AppPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Xvoice.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCT332.OCX=$(WinSysPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.hlp=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\msvbvm60.dll=$(WinSysPathSysFile)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Views\Dir.txt=$(AppPath)\Views
+C:\WINDOWS\SYSTEM\MSVCP60.DLL=$(WinSysPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\List.src=$(AppPath)\Internet Updates
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\License.rtf=$(AppPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.rtf=$(AppPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon2.gif=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon.gif=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Readme.txt=$(AppPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\SimpleTrack\SimpleTrack.exe=$(AppPath)
+
+[Package|AGSatTrack V1.23 Update|Configure Shared Files]
+Applicable=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.exe=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\Default.mdb=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Map1.bmp=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\map2.bmp=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Observer\ObserverLocations.mdb=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\amateur.mdb=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\ReverseMap.bmp=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\map.bmp=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon.bmp=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon2.bmp=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon3.bmp=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Observer\ObserverLocations.txt=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\Amateur.txt=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\gps.txt=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\weather.txt=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon3.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\MainMap.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Map1.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\map2.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\ReverseMap.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Frequencies\Frequencies.txt=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Register.rtf=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Observer\Globe.dat=No
+C:\My Documents\DEVELOP\Visual C++\AgGlobe\Debug\AgGlobe.dll=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetFull.dat=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetHam.dat=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetHamWx.dat=No
+C:\WINDOWS\SYSTEM\AgGlobe.dll=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.hlp=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Views\Dir.txt=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\List.src=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\License.rtf=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.rtf=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon2.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Readme.txt=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\SimpleTrack\SimpleTrack.exe=No
+
+[Package|AGSatTrack V1.23 Update|Distribution]
+Type=multi
+Size=1.44 MB
+Title=AGSatTrack V1.23 Update
+
+[Package|AGSatTrack V1.23 Update|Package]
+PackageFolder=C:\My Documents\DEVELOP\Install\AGSatTrack 123 Update
+ProjectFolder=C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking
+ServerSideCab=
+File1=C:\My Documents\DEVELOP\Install\AGSatTrack 123 Update\setup.exe
+File2=C:\My Documents\DEVELOP\Install\AGSatTrack 123 Update\Setup.Lst
+File3=C:\My Documents\DEVELOP\Install\AGSatTrack 123 Update\AGSatT1.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+[Package|AGSatTrack V1.23 Update|IconGroups]
+Group0=AGSatTrack
+PrivateGroup0=-1
+Parent0=$(Programs)
+Group1=$(Start Menu)
+PrivateGroup1=-1
+Parent1=
+
+[Package|AGSatTrack V1.23 Update|AGSatTrack]
+Icon1=AGSatTrack.exe
+Title1=AGSatTrack
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|AGSatTrack V1.23 Update|$(Start Menu)]
+Icon1=AGSatTrack.exe
+Title1=AG SatTrack
+StartIn1=$(AppPath)
+Key1=Icon3
+
+
+[Package|AGSatTrack V1.24 Update|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\My Documents\DEVELOP\Install\AGSatTrack 124 Update
+
+[Package|AGSatTrack V1.24 Update|Configure DAO ISAMs]
+Applicable=No
+Text=No
+Excel=No
+Lotus=No
+Xbase=No
+Paradox=No
+Jet 2.x=Yes
+Exchange=No
+
+[Package|AGSatTrack V1.24 Update|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|AGSatTrack V1.24 Update|Files Found]
+
+[Package|AGSatTrack V1.24 Update|Files Released]
+Default.mdb=
+amateur.mdb=
+ObserverLocations.mdb=
+
+[Package|AGSatTrack V1.24 Update|Missing Dependency Information]
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\SatTrack.ocx=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Animation\CGAnimation.dll=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\cbotknob.ocx=
+C:\WINDOWS\SYSTEM\MSVCP60D.DLL=
+C:\WINDOWS\SYSTEM\MSVCRTD.DLL=
+C:\WINDOWS\SYSTEM\WININET.DLL=
+C:\WINDOWS\SYSTEM\MSVCP60.DLL=
+C:\My Documents\DEVELOP\Visual Basic\Radio\SimpleTrack\SimpleTrack.exe=
+
+[Package|AGSatTrack V1.24 Update|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\SatTrack.ocx=
+
+[Package|AGSatTrack V1.24 Update|Files Added]
+c:\my documents\develop\visual basic\radio\satellite tracking\observer\observerlocations.txt=
+c:\my documents\develop\visual basic\radio\satellite tracking\elements\amateur.txt=
+c:\my documents\develop\visual basic\radio\satellite tracking\elements\gps.txt=
+c:\my documents\develop\visual basic\radio\satellite tracking\elements\weather.txt=
+c:\my documents\develop\visual basic\radio\satellite tracking\images\horizon3.gif=
+c:\my documents\develop\visual basic\radio\satellite tracking\images\mainmap.gif=
+c:\my documents\develop\visual basic\radio\satellite tracking\images\map1.gif=
+c:\my documents\develop\visual basic\radio\satellite tracking\images\map2.gif=
+c:\my documents\develop\visual basic\radio\satellite tracking\images\reversemap.gif=
+c:\my documents\develop\visual basic\radio\satellite tracking\frequencies\frequencies.txt=
+c:\my documents\develop\visual basic\radio\satellite tracking\register.rtf=
+c:\my documents\develop\visual basic\radio\satellite tracking\observer\globe.dat=
+c:\my documents\develop\visual c++\agglobe\release\agglobe.dll=
+c:\my documents\develop\visual basic\radio\satellite tracking\cbotknob.ocx=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetFull.dat=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetHam.dat=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetHamWx.dat=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Views\Dir.txt=
+C:\WINDOWS\SYSTEM\MSVCP60.DLL=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\List.src=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\License.rtf=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.rtf=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon2.gif=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon.gif=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Readme.txt=
+C:\My Documents\DEVELOP\Visual Basic\Radio\SimpleTrack\SimpleTrack.exe=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\world.gif=
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\License.txt=
+
+[Package|AGSatTrack V1.24 Update|Files Removed]
+c:\my documents\develop\visual basic\radio\satellite tracking\elements\weather.txt=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\msvbvm60.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\oleaut32.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\olepro32.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\asycfilt.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\stdole2.tlb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+c:\program files\sheridan\activetoolbarsplus\sstbars2.ocx=
+c:\program files\sheridan\activetoolbarsplus\sstabs2.ocx=
+c:\my documents\develop\visual basic\radio\satellite tracking\observer\observerlocations.txt=
+c:\windows\system\mscomctl.ocx=
+c:\windows\system\mscomm32.ocx=
+c:\windows\system\mscomct2.ocx=
+c:\my documents\develop\visual basic\radio\satellite tracking\elements\gps.txt=
+c:\my documents\develop\visual basic\radio\satellite tracking\frequencies\frequencies.txt=
+c:\windows\system\comdlg32.ocx=
+c:\windows\system\comct332.ocx=
+c:\my documents\develop\visual basic\radio\satellite tracking\cbotknob.ocx=
+c:\my documents\develop\visual basic\radio\satellite tracking\elements\amateur.txt=
+c:\my documents\develop\visual basic\radio\satellite tracking\images\map2.gif=
+c:\my documents\develop\visual basic\radio\satellite tracking\images\map1.gif=
+c:\my documents\develop\visual basic\radio\satellite tracking\images\horizon3.gif=
+c:\windows\system\msvcrt.dll=
+c:\my documents\develop\visual basic\radio\satellite tracking\images\mainmap.gif=
+c:\my documents\develop\visual basic\radio\satellite tracking\images\reversemap.gif=
+c:\windows\system\msstkprp.dll=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\riched32.dll=
+c:\windows\system\richtx32.ocx=
+c:\windows\system\wininet.dll=
+
+[Package|AGSatTrack V1.24 Update|Files In Project]
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=No
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\SatTrack.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Sheridan\ActiveToolBarsPlus\sstbars2.ocx=No
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Observer\ObserverLocations.txt=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\Amateur.txt=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\gps.txt=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\weather.txt=No
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon3.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\MainMap.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Map1.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\map2.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\ReverseMap.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Frequencies\Frequencies.txt=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Register.rtf=Yes
+C:\Program Files\Sheridan\ActiveToolBarsPlus\sstabs2.ocx=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Observer\Globe.dat=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\cbotknob.ocx=No
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=No
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=No
+C:\WINDOWS\SYSTEM\WININET.DLL=No
+C:\WINDOWS\SYSTEM\AgGlobe.dll=Yes
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Xvoice.dll=Yes
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=No
+C:\WINDOWS\SYSTEM\COMCT332.OCX=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.hlp=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\msvbvm60.dll=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\world.gif=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\License.txt=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Readme.txt=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.rtf=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Views\Dir.txt=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\SimpleTrack\SimpleTrack.exe=Yes
+
+[Package|AGSatTrack V1.24 Update|Configure Registry Files]
+Applicable=No
+
+[Package|AGSatTrack V1.24 Update|Configure Remote Servers]
+Applicable=No
+
+[Package|AGSatTrack V1.24 Update|Install Locations]
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\Program Files\ActiveToolBars\sstbars.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Animation\CGAnimation.dll=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msjint35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msrepl35.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\SatTrack.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\Default.mdb=$(AppPath)\Elements
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Map1.bmp=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\map2.bmp=$(AppPath)\Images
+C:\Program Files\Sheridan\ActiveToolBarsPlus\sstbars2.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Observer\ObserverLocations.mdb=$(AppPath)\Observer
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\amateur.mdb=$(AppPath)\Elements
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\ReverseMap.bmp=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\map.bmp=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon.bmp=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon2.bmp=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon3.bmp=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Observer\ObserverLocations.txt=$(AppPath)\Observer
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\Amateur.txt=$(AppPath)\Elements
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\gps.txt=$(AppPath)\Elements
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\weather.txt=$(AppPath)\Elements
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon3.gif=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\MainMap.gif=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Map1.gif=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\map2.gif=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\ReverseMap.gif=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Frequencies\Frequencies.txt=$(AppPath)\Frequencies
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Register.rtf=$(AppPath)
+C:\Program Files\Sheridan\ActiveToolBarsPlus\sstabs2.ocx=$(WinSysPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Observer\Globe.dat=$(AppPath)\Observer
+C:\My Documents\DEVELOP\Visual C++\AgGlobe\Debug\AgGlobe.dll=$(WinSysPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\cbotknob.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\My Documents\DEVELOP\Visual C++\AgGlobe\Release\AgGlobe.dll=$(WinSysPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetFull.dat=$(AppPath)\Internet Updates
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetHam.dat=$(AppPath)\Internet Updates
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetHamWx.dat=$(AppPath)\Internet Updates
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\WININET.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\AgGlobe.dll=$(AppPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Xvoice.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCT332.OCX=$(WinSysPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.hlp=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\msvbvm60.dll=$(WinSysPathSysFile)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Views\Dir.txt=$(AppPath)\Views
+C:\WINDOWS\SYSTEM\MSVCP60.DLL=$(WinSysPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\List.src=$(AppPath)\Internet Updates
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\License.rtf=$(AppPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.rtf=$(AppPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon2.gif=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon.gif=$(AppPath)\Images
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Readme.txt=$(AppPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\SimpleTrack\SimpleTrack.exe=$(AppPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\world.gif=$(AppPath)
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\License.txt=$(AppPath)
+
+[Package|AGSatTrack V1.24 Update|Configure Shared Files]
+Applicable=Yes
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.exe=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\Default.mdb=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Map1.bmp=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\map2.bmp=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Observer\ObserverLocations.mdb=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\amateur.mdb=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\ReverseMap.bmp=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\map.bmp=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon.bmp=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon2.bmp=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon3.bmp=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Observer\ObserverLocations.txt=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\Amateur.txt=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\gps.txt=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Elements\weather.txt=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon3.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\MainMap.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Map1.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\map2.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\ReverseMap.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Frequencies\Frequencies.txt=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Register.rtf=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Observer\Globe.dat=No
+C:\My Documents\DEVELOP\Visual C++\AgGlobe\Debug\AgGlobe.dll=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetFull.dat=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetHam.dat=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\InetHamWx.dat=No
+C:\WINDOWS\SYSTEM\AgGlobe.dll=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.hlp=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Views\Dir.txt=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Internet Updates\List.src=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\License.rtf=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\AGSatTrack.rtf=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon2.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Images\Horizon.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\Readme.txt=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\SimpleTrack\SimpleTrack.exe=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\world.gif=No
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\License.txt=No
+
+[Package|AGSatTrack V1.24 Update|Distribution]
+Type=multi
+Size=1.44 MB
+Title=AGSatTrack V1.24 Update
+
+[Package|AGSatTrack V1.24 Update|IconGroups]
+Group0=AGSatTrack
+PrivateGroup0=-1
+Parent0=$(Programs)
+Group1=$(Start Menu)
+PrivateGroup1=-1
+Parent1=
+
+[Package|AGSatTrack V1.24 Update|AGSatTrack]
+Icon1=AGSatTrack.exe
+Title1=AGSatTrack
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|AGSatTrack V1.24 Update|$(Start Menu)]
+Icon1=AGSatTrack.exe
+Title1=AG SatTrack
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|AGSatTrack V1.24 Update|Package]
+PackageFolder=C:\My Documents\DEVELOP\Install\AGSatTrack 124 Update
+ProjectFolder=C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking
+ServerSideCab=
+File1=C:\My Documents\DEVELOP\Install\AGSatTrack 124 Update\setup.exe
+File2=C:\My Documents\DEVELOP\Install\AGSatTrack 124 Update\Setup.Lst
+File3=C:\My Documents\DEVELOP\Install\AGSatTrack 124 Update\AGSatT1.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz

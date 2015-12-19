@@ -1,0 +1,10 @@
+GEOS,goes.txt,http://www.celestrak.com,/NORAD/elements
+NOAA,noaa.txt,http://www.celestrak.com,/NORAD/elements
+Stations,stations.txt,http://www.celestrak.com,/NORAD/elements
+Intelsat,intelsat.txt,http://www.celestrak.com,/NORAD/elements
+GPS,gps-ops.txt,http://www.celestrak.com,/NORAD/elements
+Science,science.txt,http://www.celestrak.com,/NORAD/elements
+Amateur,amateur.txt,http://www.celestrak.com,/NORAD/elements
+New,tle-new.txt,http://www.celestrak.com,/NORAD/elements
+Weather,weather.txt,http://www.celestrak.com,/NORAD/elements
+Visual,visual.txt,http://www.celestrak.com,/NORAD/elements

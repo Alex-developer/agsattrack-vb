@@ -1,0 +1,86 @@
+[Root]
+Most Recent Package=SatTrack Dep
+
+
+[Package|SatTrack Dep|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking
+Controls Design-Time Support=Yes
+
+[Package|SatTrack Dep|Configure DAO ISAMs]
+Applicable=No
+
+[Package|SatTrack Dep|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|SatTrack Dep|Files Found]
+
+[Package|SatTrack Dep|Files Released]
+
+[Package|SatTrack Dep|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\XVOICE.DLL=
+C:\WINDOWS\SYSTEM\cbotknob.ocx=
+
+[Package|SatTrack Dep|Out-of-Date Dependency Information]
+
+[Package|SatTrack Dep|Files Added]
+c:\windows\system\msstkprp.dll=This file is needed for usercontrol design-time support.
+
+[Package|SatTrack Dep|Files Removed]
+
+[Package|SatTrack Dep|Files In Project]
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\SatTrack.ocx=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\AgGlobe.dll=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=Yes
+C:\WINDOWS\SYSTEM\cbotknob.ocx=Yes
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=Yes
+C:\WINDOWS\speech\XVOICE.DLL=Yes
+
+[Package|SatTrack Dep|Configure Registry Files]
+Applicable=
+
+[Package|SatTrack Dep|Configure Remote Servers]
+Applicable=
+
+[Package|SatTrack Dep|Install Locations]
+C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\SatTrack.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\AgGlobe.dll=$(AppPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\cbotknob.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\XVOICE.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=$(WinSysPath)
+C:\WINDOWS\speech\XVOICE.DLL=$(WinSysPath)
+
+[Package|SatTrack Dep|Configure Shared Files]
+Applicable=
+
+[Package|SatTrack Dep|DepFile]
+DepCabFile=SatTrack.CAB
+DepCabRun=SatTrack.INF
+
+[Package|SatTrack Dep|Package]
+PackageFolder=C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking
+ProjectFolder=C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking
+ServerSideCab=
+File1=C:\My Documents\DEVELOP\Visual Basic\Radio\Satellite Tracking\SatTrack.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

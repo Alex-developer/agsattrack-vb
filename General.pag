@@ -1,0 +1,157 @@
+VERSION 5.00
+Begin VB.PropertyPage General 
+   Caption         =   "General"
+   ClientHeight    =   3495
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   5925
+   PaletteMode     =   0  'Halftone
+   ScaleHeight     =   3495
+   ScaleWidth      =   5925
+   Begin VB.TextBox txtSetSelectedSatellite 
+      Height          =   330
+      Left            =   3000
+      TabIndex        =   10
+      Top             =   1020
+      Width           =   2700
+   End
+   Begin VB.CheckBox chkSetIndexOnSelect 
+      Caption         =   "SetIndexOnSelect"
+      Height          =   285
+      Left            =   3000
+      TabIndex        =   8
+      Top             =   120
+      Width           =   2700
+   End
+   Begin VB.TextBox txtOutputStyle 
+      Height          =   330
+      Left            =   90
+      TabIndex        =   7
+      Top             =   2970
+      Width           =   2700
+   End
+   Begin VB.CheckBox chkUseHourglass 
+      Caption         =   "UseHourglass"
+      Height          =   285
+      Left            =   90
+      TabIndex        =   5
+      Top             =   2070
+      Width           =   2700
+   End
+   Begin VB.CheckBox chkAllowDoEvents 
+      Caption         =   "AllowDoEvents"
+      Height          =   285
+      Left            =   90
+      TabIndex        =   4
+      Top             =   1420
+      Width           =   2700
+   End
+   Begin VB.TextBox txtFrequencyDatabasePath 
+      Height          =   330
+      Left            =   90
+      TabIndex        =   3
+      Top             =   1020
+      Width           =   2700
+   End
+   Begin VB.TextBox txtDatabasePath 
+      Height          =   330
+      Left            =   90
+      TabIndex        =   1
+      Top             =   370
+      Width           =   2700
+   End
+   Begin VB.Label lblSetSelectedSatellite 
+      Caption         =   "SetSelectedSatellite:"
+      Height          =   240
+      Left            =   3000
+      TabIndex        =   9
+      Top             =   770
+      Width           =   2700
+   End
+   Begin VB.Label lblOutputStyle 
+      Caption         =   "OutputStyle:"
+      Height          =   240
+      Left            =   90
+      TabIndex        =   6
+      Top             =   2720
+      Width           =   2700
+   End
+   Begin VB.Label lblFrequencyDatabasePath 
+      Caption         =   "FrequencyDatabasePath:"
+      Height          =   240
+      Left            =   90
+      TabIndex        =   2
+      Top             =   770
+      Width           =   2700
+   End
+   Begin VB.Label lblDatabasePath 
+      Caption         =   "DatabasePath:"
+      Height          =   240
+      Left            =   90
+      TabIndex        =   0
+      Top             =   120
+      Width           =   2700
+   End
+End
+Attribute VB_Name = "General"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = True
+Private Sub txtSetSelectedSatellite_Change()
+    Changed = True
+End Sub
+
+
+Private Sub chkSetIndexOnSelect_Click()
+    Changed = True
+End Sub
+
+
+Private Sub txtOutputStyle_Change()
+    Changed = True
+End Sub
+
+
+Private Sub chkUseHourglass_Click()
+    Changed = True
+End Sub
+
+
+Private Sub chkAllowDoEvents_Click()
+    Changed = True
+End Sub
+
+
+Private Sub txtFrequencyDatabasePath_Change()
+    Changed = True
+End Sub
+
+
+Private Sub txtDatabasePath_Change()
+    Changed = True
+End Sub
+
+
+Private Sub PropertyPage_ApplyChanges()
+    SelectedControls(0).SetSelectedSatellite = txtSetSelectedSatellite.Text
+    SelectedControls(0).SetIndexOnSelect = (chkSetIndexOnSelect.Value = vbChecked)
+    SelectedControls(0).OutputStyle = txtOutputStyle.Text
+    SelectedControls(0).UseHourglass = (chkUseHourglass.Value = vbChecked)
+    SelectedControls(0).AllowDoEvents = (chkAllowDoEvents.Value = vbChecked)
+    SelectedControls(0).FrequencyDatabasePath = txtFrequencyDatabasePath.Text
+    SelectedControls(0).DatabasePath = txtDatabasePath.Text
+End Sub
+
+
+Private Sub PropertyPage_SelectionChanged()
+    txtSetSelectedSatellite.Text = SelectedControls(0).SetSelectedSatellite
+    chkSetIndexOnSelect.Value = (SelectedControls(0).SetIndexOnSelect And vbChecked)
+    txtOutputStyle.Text = SelectedControls(0).OutputStyle
+    chkUseHourglass.Value = (SelectedControls(0).UseHourglass And vbChecked)
+    chkAllowDoEvents.Value = (SelectedControls(0).AllowDoEvents And vbChecked)
+    txtFrequencyDatabasePath.Text = SelectedControls(0).FrequencyDatabasePath
+    txtDatabasePath.Text = SelectedControls(0).DatabasePath
+End Sub
+
+

@@ -1,0 +1,17 @@
+[Tasks]
+Count=8
+Task1=*Add ability to save current view|01-07-2001|01-11-2001|0 - None|1.0.23
+Task2=Use the cities.dat file (needs reformatting)|01-07-2001||0 - None|
+Task3=Sort out Lat/Lon for observer|01-07-2001||0 - None|
+Task4=*Add ability to edit Inet update files|01-11-2001|01-14-2001|7 - Highest|1.0.23
+Task5=Sat Details toggles between windows|01-11-2001||7 - Highest|
+Task6=*Moon fottprint not working|01-13-2001|01-13-2001|7 - Highest|1.0.23
+Task7=Globe view gmt times are different to other views|01-14-2001||7 - Highest|
+Task8=Satellites NOT updated if Inet update done from frmselect|01-14-2001||7 - Highest|
+
+[Columns]
+1=3660.095
+2=0
+3=1440
+4=1440
+5=0
